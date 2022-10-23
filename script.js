@@ -148,7 +148,10 @@ function gameOver(){
     btnEl.addEventListener('click', function(){
         //grab the value in the input el.
         console.log("YOUR INPUT --- ", inputEl.value)
-        //save in localStorage
+        //hide input el, and btnEl
+        btnEl.classList.add('hide');
+        inputEl.classList.add('hide');
+        alert('AVADA KADAVRA');
     })
     // propmt user for their email, make input el on page,
     //save to localStorage...
