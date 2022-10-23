@@ -18,12 +18,12 @@ var questions = [
         answer: 2
     },
     {
-        questionTitle: 'Who anonymously sends Harry the Invisibility Cloak on Christmas',
+        questionTitle: 'Who sends Harry the Invisibility Cloak?',
         questionChoices: ['Severus Snape', 'Voldemort', 'Dumbledore', 'Ron Weasley'],
         answer: 2
     },
     {
-        questionTitle: 'How many staircases does Hogwarts have',
+        questionTitle: 'How many staircases does Hogwarts have?',
         questionChoices: [120, 155, 142, 180],
         answer: 2
     },
@@ -134,7 +134,7 @@ function gameOver(){
 
 //create input El
     var inputEl = el('input');
-    inputEl.setAttribute("placeholder", "Please enter your email");
+    inputEl.setAttribute("placeholder", "Please enter your initials!");
     inputEl.setAttribute("type", "email");
     divContainer.appendChild(inputEl)
     

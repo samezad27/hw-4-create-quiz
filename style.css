@@ -22,7 +22,17 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 1.5;
-    background-image: url("../images/hogwarts.jpg");
+    background-image: url("./images/hogwarts.jpg");
+}
+
+h1 {
+    color: var(--white)
+}
+
+input{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
 }
 
 .time-left {
@@ -43,9 +53,15 @@ body {
 }
 
 .btn {
-    background-color: var(--blue);
+    background-color: var(--red);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
     padding: 4px;
     color: var(--white);
+    align-items: center;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  
+
 }
