@@ -8,29 +8,29 @@ var currentQuestionIndex = 0;
 
 var questions = [
     {
-        questionTitle: 'What house is Harry Potter in?',
-        questionChoices: ['Slytherin', 'Hufflepuff', 'Gryffindor', 'Ravenclaw'],
-        answer: 2
+        questionTitle: 'What is Harrys favorite JS data type',
+        questionChoices: ['boo-lean', 'undefined', 'undefined', 'DATA'],
+        answer: 1
     },
     {
-        questionTitle: 'What is Voldemorts real name?',
+        questionTitle: 'Please complete the function: var voldemortRealName = ', 
         questionChoices: ['Sam Smith', 'Hickory Rain', 'Tom Riddle', 'Aram Joke'],
         answer: 2
     },
     {
-        questionTitle: 'Who sends Harry the Invisibility Cloak?',
-        questionChoices: ['Severus Snape', 'Voldemort', 'Dumbledore', 'Ron Weasley'],
+        questionTitle: 'What is the property of Harrys Invisibility cloak?',
+        questionChoices: ['property: invisible', 'visibility:invisible', 'visibility:hidden', 'Ron Weasley'],
         answer: 2
     },
     {
-        questionTitle: 'How many staircases does Hogwarts have?',
-        questionChoices: [120, 155, 142, 180],
+        questionTitle: 'What logic does the sorting hat use?',
+        questionChoices: ['while loop', 'magic', 'if statement', 'randomizer'],
         answer: 2
     },
     {
-        questionTitle: 'What is Rons middle name?',
-        questionChoices: ['Bilius', 'Harry', 'Rinkle', 'William'],
-        answer: 0
+        questionTitle: 'How does harry wait for an event to occur?',
+        questionChoices: ['Bilius', 'expecto eventlistener', 'Rinkle', 'William'],
+        answer: 1
     }
 ];
 
@@ -135,7 +135,7 @@ function gameOver(){
 //create input El
     var inputEl = el('input');
     inputEl.setAttribute("placeholder", "Please enter your initials!");
-    inputEl.setAttribute("type", "email");
+    inputEl.setAttribute("type", "Initials");
     divContainer.appendChild(inputEl)
     
     
@@ -154,7 +154,7 @@ function gameOver(){
         alert('AVADA KADAVRA');
     })
     // propmt user for their email, make input el on page,
-    //save to localStorage...
+    //save to localStorage... not neededin the readme
 }
 
 
