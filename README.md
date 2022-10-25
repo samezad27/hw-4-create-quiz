@@ -6,8 +6,6 @@ This is a quick quiz to test JS knowledge
 - Git URL: https://github.com/samezad27/hw-4-create-quiz
 
 
-![](https://i.ibb.co/f9dMbvz/Screen-Shot-2022-10-24-at-9-52-53-PM.png)
-
 ## User Story
 
 ```
